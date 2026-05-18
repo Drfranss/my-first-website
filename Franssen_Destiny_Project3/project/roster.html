@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Crew Roster</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <h1>🚀 Space Mission Signup</h1>
+    <nav>
+      <a href="index.html">Sign Up</a>
+      <a href="roster.html">View Roster</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Crew Roster</h2>
+
+    <!-- Controls -->
+    <div class="controls">
+      <button id="clearBtn">Clear All Data</button>
+    </div>
+
+    <!-- The roster table -->
+    <div class="table-wrapper">
+      <table id="rosterTable">
+        <caption>Registered Crew Members</caption>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Role</th>
+            <th>Destination</th>
+            <th>Experience</th>
+            <th>Email</th>
+            <th>Snack</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="rosterBody">
+          <!-- rows added by JavaScript -->
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="7" id="footerText">No crew members registered yet.</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+
+
+  </main>
+
+  <footer>
+    <p>Space Mission Signup &copy; 2025</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
